@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F5F5F0"/>
+  
+  <!-- Logo Concept 3: THE STREET CROWN (Hand-drawn feel) -->
+  <g transform="translate(200, 170)">
+    <!-- Imperfect hand-drawn style crown -->
+    <path d="M-45,20 
+             Q-50,0 -40,-15 
+             L-35,-5 
+             Q-30,-25 -20,-10 
+             L-15,-35 
+             Q-5,-45 0,-50 
+             Q5,-45 15,-35 
+             L20,-10 
+             Q30,-25 35,-5 
+             L40,-15 
+             Q50,0 45,20 
+             Q40,35 25,30 
+             Q0,40 -25,30 
+             Q-40,35 -45,20 Z" 
+          fill="#1A1A1A"/>
+    
+    <!-- Inner crown details (imperfect lines) -->
+    <path d="M-30,10 Q-25,5 -20,15" stroke="#6B6B6B" stroke-width="2" fill="none"/>
+    <path d="M-10,18 Q0,12 10,18" stroke="#6B6B6B" stroke-width="2" fill="none"/>
+    <path d="M20,15 Q25,5 30,10" stroke="#6B6B6B" stroke-width="2" fill="none"/>
+    
+    <!-- Gold gem accent at top -->
+    <circle cx="0" cy="-38" r="6" fill="#D4AF37"/>
+    <circle cx="-28" cy="-15" r="4" fill="#D4AF37"/>
+    <circle cx="28" cy="-15" r="4" fill="#D4AF37"/>
+    
+    <!-- Coffee bean steam wisps (subtle) -->
+    <path d="M-15,-60 Q-10,-70 -5,-65" stroke="#6B6B6B" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M5,-65 Q10,-75 15,-60" stroke="#6B6B6B" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M0,-70 Q3,-80 0,-85" stroke="#6B6B6B" stroke-width="1.5" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Brand Name (slightly rougher font suggestion) -->
+  <text x="200" y="270" font-family="Arial Black, sans-serif" font-size="26" 
+        font-weight="900" text-anchor="middle" fill="#1A1A1A" letter-spacing="3">ESPRESSO KING</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="295" font-family="Georgia, serif" font-size="12" 
+        font-style="italic" text-anchor="middle" fill="#6B6B6B" letter-spacing="1">The Melbourne Method</text>
+  
+  <!-- Concept Label -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="10" 
+        text-anchor="middle" fill="#D4AF37" font-weight="bold" letter-spacing="3">CONCEPT 3: THE STREET CROWN</text>
+</svg>

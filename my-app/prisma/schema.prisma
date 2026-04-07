@@ -1,0 +1,277 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  EVENT_DIRECTOR
+  SPONSOR_TIER_1
+  SPONSOR_TIER_2
+  SPONSOR_TIER_3
+  HOST
+  CO_HOST
+  STATION_MANAGER
+  RESET_CREW
+  VOLUNTEER
+  VISUAL_JUDGE
+  GENERAL_MEMBER
+  COMPETITOR
+  COACH
+  COMPETITOR_ASSISTANT
+  EMCEE
+}
+
+enum EventFormat {
+  MATCH_PATTERN
+  FREESTYLE
+}
+
+enum HeatStatus {
+  SCHEDULED
+  PRACTICE
+  SERVICE
+  CLEANUP
+  COMPLETED
+}
+
+enum VoteChoice {
+  LEFT
+  RIGHT
+}
+
+enum SponsorTier {
+  BROUGHT_TO_YOU_BY
+  PARTNERED_WITH
+  SUPPORTED_BY
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String    // Hashed password
+  firstName     String
+  lastName      String
+  avatarUrl     String?
+  role          UserRole  @default(GENERAL_MEMBER)
+  emailVerified DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Relations
+  events        Event[]
+  competitors   Competitor[]
+  heatsAsJudge  JudgeAssignment[]
+  votes         Vote[]
+  publicVotes   PublicVote[]
+  photos        Photo[]
+  hostedEvents  Event[]   @relation("EventHost")
+  
+  @@map("users")
+}
+
+model Event {
+  id                String      @id @default(cuid())
+  name              String
+  description       String?
+  location          String
+  startDate         DateTime
+  endDate           DateTime?
+  format            EventFormat @default(MATCH_PATTERN)
+  
+  // Timing settings (in seconds)
+  practiceTime      Int         @default(180)  // 3 minutes
+  serviceTime       Int         @default(300)  // 5 minutes
+  cleanupTime       Int         @default(120) // 2 minutes
+  
+  // Voting settings
+  votingEnabled     Boolean     @default(true)
+  votingEndsAt      DateTime?
+  
+  // Relations
+  directorId        String
+  director          User        @relation(fields: [directorId], references: [id])
+  hostId            String?
+  host              User?       @relation("EventHost", fields: [hostId], references: [id])
+  
+  competitors       Competitor[]
+  heats             Heat[]
+  sponsors          Sponsor[]
+  bracket           Bracket?
+  
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  
+  @@map("events")
+}
+
+model Competitor {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  eventId     String
+  event       Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  
+  // Competition details
+  nickname    String?
+  bio         String?
+  photoUrl    String?
+  seed        Int?     // For bracket seeding
+  
+  // Relations
+  heatsAsA    Heat[]   @relation("CompetitorA")
+  heatsAsB    Heat[]   @relation("CompetitorB")
+  
+  createdAt   DateTime @default(now())
+  
+  @@unique([userId, eventId])
+  @@map("competitors")
+}
+
+model Bracket {
+  id          String   @id @default(cuid())
+  eventId     String   @unique
+  event       Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  
+  // Bracket structure stored as JSON
+  structure   Json
+  
+  // Final results
+  championId  String?
+  runnerUpId  String?
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("brackets")
+}
+
+model Heat {
+  id              String      @id @default(cuid())
+  eventId         String
+  event           Event       @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  
+  // Competitors
+  competitorAId   String
+  competitorA     Competitor  @relation("CompetitorA", fields: [competitorAId], references: [id])
+  competitorBId   String
+  competitorB     Competitor  @relation("CompetitorB", fields: [competitorBId], references: [id])
+  
+  // Bracket position
+  round           Int
+  position        Int
+  nextHeatId      String?
+  nextHeat        Heat?       @relation("NextHeat", fields: [nextHeatId], references: [id])
+  nextHeats       Heat[]      @relation("NextHeat")
+  
+  // Status and timing
+  status          HeatStatus  @default(SCHEDULED)
+  scheduledTime   DateTime?
+  startedAt       DateTime?
+  practiceEndsAt  DateTime?
+  serviceEndsAt   DateTime?
+  cleanupEndsAt   DateTime?
+  completedAt     DateTime?
+  
+  // Winner (null until completed)
+  winnerId        String?
+  
+  // Relations
+  judges          JudgeAssignment[]
+  votes           Vote[]
+  photos          Photo[]
+  
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  
+  @@map("heats")
+}
+
+model JudgeAssignment {
+  id        String   @id @default(cuid())
+  heatId    String
+  heat      Heat     @relation(fields: [heatId], references: [id], onDelete: Cascade)
+  judgeId   String
+  judge     User     @relation(fields: [judgeId], references: [id])
+  
+  createdAt DateTime @default(now())
+  
+  @@unique([heatId, judgeId])
+  @@map("judge_assignments")
+}
+
+model Vote {
+  id          String    @id @default(cuid())
+  heatId      String
+  heat        Heat      @relation(fields: [heatId], references: [id], onDelete: Cascade)
+  judgeId     String
+  judge       User      @relation(fields: [judgeId], references: [id])
+  
+  // Blind voting - judge doesn't know which competitor is which
+  choice      VoteChoice
+  
+  // The actual mapping is only revealed after voting
+  competitorAChoice Boolean // true if LEFT was competitor A
+  
+  createdAt   DateTime  @default(now())
+  
+  @@unique([heatId, judgeId])
+  @@map("votes")
+}
+
+model Photo {
+  id          String   @id @default(cuid())
+  heatId      String
+  heat        Heat     @relation(fields: [heatId], references: [id], onDelete: Cascade)
+  
+  // Which competitor's pour
+  competitorId String
+  
+  // Image stored in Supabase Storage
+  imageUrl    String
+  thumbnailUrl String?
+  
+  // Upload info
+  uploadedById String
+  uploadedBy   User     @relation(fields: [uploadedById], references: [id])
+  uploadedAt   DateTime @default(now())
+  
+  // Public voting
+  publicVotes PublicVote[]
+  
+  createdAt   DateTime @default(now())
+  
+  @@map("photos")
+}
+
+model PublicVote {
+  id          String   @id @default(cuid())
+  photoId     String
+  photo       Photo    @relation(fields: [photoId], references: [id], onDelete: Cascade)
+  voterId     String
+  voter       User     @relation(fields: [voterId], references: [id])
+  
+  createdAt   DateTime @default(now())
+  
+  @@unique([photoId, voterId])
+  @@map("public_votes")
+}
+
+model Sponsor {
+  id          String      @id @default(cuid())
+  eventId     String
+  event       Event       @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  
+  name        String
+  tier        SponsorTier
+  logoUrl     String?
+  websiteUrl  String?
+  description String?
+  
+  createdAt   DateTime    @default(now())
+  
+  @@map("sponsors")
+}

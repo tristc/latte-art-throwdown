@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F5F5F0"/>
+  
+  <!-- Logo Concept 4: THE MELBOURNE GRID (Modern/Geometric) -->
+  <g transform="translate(200, 170)">
+    
+    <!-- Outer hexagon frame (Melbourne laneway geometry) -->
+    <polygon points="0,-70 60,-35 60,35 0,70 -60,35 -60,-35" 
+             fill="none" stroke="#1A1A1A" stroke-width="3"/>
+    
+    <!-- Inner hexagon -->
+    <polygon points="0,-55 48,-27 48,27 0,55 -48,27 -48,-27" 
+             fill="#1A1A1A"/>
+    
+    <!-- Coffee cup silhouette (negative space) -->
+    <path d="M-20,-15 
+             L-20,20 
+             Q-20,30 0,30 
+             Q20,30 20,20 
+             L20,-15 
+             Z" 
+          fill="#F5F5F0"/>
+    
+    <!-- Cup handle -->
+    <path d="M20,-5 Q32,-5 32,5 Q32,15 20,15" 
+          fill="none" stroke="#F5F5F0" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Steam lines (geometric, not wispy) -->
+    <line x1="-8" y1="-25" x2="-8" y2="-40" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-28" x2="0" y2="-48" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    <line x1="8" y1="-25" x2="8" y2="-40" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Crown points on hexagon corners (subtle) -->
+    <circle cx="0" cy="-70" r="3" fill="#D4AF37"/>
+    <circle cx="60" cy="-35" r="3" fill="#D4AF37"/>
+    <circle cx="60" cy="35" r="3" fill="#D4AF37"/>
+    <circle cx="0" cy="70" r="3" fill="#D4AF37"/>
+    <circle cx="-60" cy="35" r="3" fill="#D4AF37"/>
+    <circle cx="-60" cy="-35" r="3" fill="#D4AF37"/>
+    
+    <!-- Center dot -->
+    <circle cx="0" cy="8" r="3" fill="#D4AF37"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="200" y="280" font-family="Arial Black, sans-serif" font-size="26" 
+        font-weight="900" text-anchor="middle" fill="#1A1A1A" letter-spacing="4"
+        style="text-transform: uppercase;"
+>ESPRESSO KING</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="305" font-family="Arial, sans-serif" font-size="11" 
+        font-weight="300" text-anchor="middle" fill="#6B6B6B" letter-spacing="3"
+        style="text-transform: uppercase;"
+>The Melbourne Method</text>
+  
+  <!-- Concept Label -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="10" 
+        text-anchor="middle" fill="#D4AF37" font-weight="bold" letter-spacing="3"
+>CONCEPT 4: THE MELBOURNE GRID</text>
+</svg>

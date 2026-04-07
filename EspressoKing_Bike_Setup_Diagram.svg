@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#2C2C2C"/>
+  
+  <!-- Street/Ground -->
+  <rect x="0" y="500" width="800" height="100" fill="#1A1A1A"/>
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#333" stroke-width="2" stroke-dasharray="20,20"/>
+  
+  <!-- === YAMAHA NMAX 155 (Side View) === -->
+  
+  <!-- Rear Wheel -->
+  <circle cx="180" cy="420" r="55" fill="#111" stroke="#333" stroke-width="3"/>
+  <circle cx="180" cy="420" r="30" fill="#444"/>
+  <circle cx="180" cy="420" r="8" fill="#888"/>
+  
+  <!-- Front Wheel -->
+  <circle cx="550" cy="420" r="55" fill="#111" stroke="#333" stroke-width="3"/>
+  <circle cx="550" cy="420" r="30" fill="#444"/>
+  <circle cx="550" cy="420" r="8" fill="#888"/>
+  
+  <!-- Main Body (Matte Black) -->
+  <path d="M180,380 
+           L250,320 
+           L350,280 
+           L480,280 
+           L520,300 
+           L540,350 
+           L550,380 
+           L550,420 
+           L500,440 
+           L350,440 
+           L250,440 
+           L180,420 Z" 
+        fill="#1A1A1A" stroke="#333" stroke-width="2"/>
+  
+  <!-- Windshield -->
+  <path d="M520,300 L540,260 L560,300 Z" fill="#333" opacity="0.6"/>
+  
+  <!-- Handlebars -->
+  <line x1="540" y1="300" x2="570" y2="280" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="570" cy="280" r="5" fill="#D4AF37"/>
+  
+  <!-- Seat -->
+  <path d="M280,320 L420,320 L440,340 L420,360 L280,360 Z" fill="#3A3A3A" stroke="#555" stroke-width="2"/>
+  
+  <!-- Underseat storage hint -->
+  <rect x="300" y="380" width="100" height="40" rx="5" fill="#222" stroke="#444" stroke-width="1"/
+         text="Storage"/>
+  
+  <text x="350" y="405" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">23L STORAGE</text>
+  
+  <!-- Suspension -->
+  <line x1="530" y1="380" x2="550" y2="420" stroke="#888" stroke-width="8"/>
+  
+  <!-- Exhaust -->
+  <rect x="220" y="430" width="80" height="15" rx="3" fill="#666"/>
+  
+  <!-- === CUSTOM RACK + BAR SETUP === -->
+  
+  <!-- Base Rack (Matte Black Steel) -->
+  <rect x="160" y="260" width="180" height="15" rx="3" fill="#1A1A1A" stroke="#D4AF37" stroke-width="2"/>
+  
+  <!-- Vertical Supports -->
+  <rect x="170" y="200" width="8" height="65" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="322" y="200" width="8" height="65" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1"/>
+  
+  <!-- Upper Shelf -->
+  <rect x="155" y="195" width="190" height="10" rx="2" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1.5"/>
+  
+  <!-- THERMAL DISPENSER 1 (Left) -->
+  <rect x="165" y="155" width="45" height="45" rx="5" fill="#2A2A2A" stroke="#555" stroke-width="2"/>
+  <rect x="175" y="140" width="25" height="15" rx="2" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1"/>
+  <!-- Tap handle -->
+  <rect x="185" y="160" width="5" height="20" fill="#D4AF37"/>
+  <circle cx="187" cy="182" r="4" fill="#D4AF37"/>
+  <!-- Label -->
+  <text x="187" y="175" font-family="Arial" font-size="6" fill="#888" text-anchor="middle">HOT</text>
+  
+  <!-- THERMAL DISPENSER 2 (Right) -->
+  <rect x="290" y="155" width="45" height="45" rx="5" fill="#2A2A2A" stroke="#555" stroke-width="2"/>
+  <rect x="300" y="140" width="25" height="15" rx="2" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1"/>
+  <!-- Tap handle -->
+  <rect x="310" y="160" width="5" height="20" fill="#D4AF37"/>
+  <circle cx="312" cy="182" r="4" fill="#D4AF37"/>
+  
+  <!-- Label -->
+  <text x="312" y="175" font-family="Arial" font-size="6" fill="#888" text-anchor="middle">COLD</text>
+  
+  <!-- Cup Dispenser (Center) -->
+  <rect x="235" y="165" width="30" height="35" rx="3" fill="#444" stroke="#666" stroke-width="1"/>
+  <!-- Cups stacked -->
+  <ellipse cx="250" cy="170" rx="12" ry="3" fill="#1A1A1A" stroke="#888" stroke-width="1"/>
+  <ellipse cx="250" cy="178" rx="12" ry="3" fill="#1A1A1A" stroke="#888" stroke-width="1"/>
+  <!-- === FOLD-OUT SIDE TABLE (Right Side) === -->
+  
+  <!-- Hinge mechanism -->
+  <circle cx="360" cy="250" r="6" fill="#666"/
+         text="Hinge"/>
+  
+  <!-- Folded table (brushed aluminum look) -->
+  <rect x="360" y="235" width="80" height="30" rx="3" fill="#888" stroke="#AAA" stroke-width="2"/>
+  
+  <!-- Table lines (brushed texture) -->
+  <line x1="370" y1="240" x2="430" y2="240" stroke="#777" stroke-width="1"/>
+  <line x1="370" y1="250" x2="430" y2="250" stroke="#777" stroke-width="1"/
+         text="Table Surface"/>
+  
+  <line x1="370" y1="260" x2="430" y2="260" stroke="#777" stroke-width="1"/>
+  
+  <!-- Support leg (folded) -->
+  <rect x="430" y="245" width="8" height="40" rx="2" fill="#666"/>
+  
+  <!-- === QR CODE HOLDER === -->
+  <rect x="340" y="200" width="20" height="30" rx="2" fill="#D4AF37"/>
+  <rect x="343" y="205" width="14" height="14" fill="#FFF"/>
+  <!-- Fake QR pattern -->
+  <rect x="345" y="207" width="4" height="4" fill="#1A1A1A"/>
+  <rect x="351" y="207" width="4" height="4" fill="#1A1A1A"/>
+  <rect x="345" y="213" width="4" height="4" fill="#1A1A1A"/>
+  
+  <!-- === BRANDING === --
+  <!-- Small EK logo on rack -->
+  <circle cx="250" cy="270" r="10" fill="#1A1A1A" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="250" y="274" font-family="Arial Black" font-size="10" fill="#D4AF37" text-anchor="middle">EK</text>
+  
+  <!-- === UMBRELLA (Deployed) === -->
+  
+  <!-- Umbrella pole -->
+  <rect x="248" y="50" width="4" height="145" fill="#666"/>
+  
+  <!-- Umbrella canopy (charcoal grey) -->
+  <path d="M120,130 
+           Q200,40 250,50 
+           Q300,40 380,130 
+           L350,135 
+           Q250,110 150,135 Z" 
+        fill="#3A3A3A" stroke="#555" stroke-width="2"/>
+  
+  <!-- Umbrella ribs -->
+  <line x1="250" y1="50" x2="150" y2="135" stroke="#555" stroke-width="1"/>
+  <line x1="250" y1="50" x2="200" y2="120" stroke="#555" stroke-width="1"/>
+  <line x1="250" y1="50" x2="300" y2="120" stroke="#555" stroke-width="1"/>
+  <line x1="250" y1="50" x2="350" y2="135" stroke="#555" stroke-width="1"/>
+  
+  <!-- Gold EK on umbrella -->
+  <text x="250" y="100" font-family="Arial Black" font-size="14" fill="#D4AF37" text-anchor="middle">EK</text>
+  
+  <!-- === ANNOTATIONS === -->
+  
+  <!-- Labels with lines --
+  <!-- 1. Thermal Dispensers -->
+  <line x1="130" y1="177" x2="80" y2="140" stroke="#D4AF37" stroke-width="1"/>
+  <text x="75" y="135" font-family="Arial" font-size="11" fill="#D4AF37" text-anchor="end">10L Thermal Dispensers</text>
+  <text x="75" y="148" font-family="Arial" font-size="9" fill="#888" text-anchor="end">(Hot + Cold Brew)</text>
+  
+  <!-- 2. Fold-out Table -->
+  <line x1="400" y1="250" x2="480" y2="220" stroke="#D4AF37" stroke-width="1"/>
+  <text x="485" y="215" font-family="Arial" font-size="11" fill="#D4AF37">Fold-Out Work Table</text>
+  <text x="485" y="228" font-family="Arial" font-size="9" fill="#888">(40×30cm aluminum)</text>
+  
+  <!-- 3. Underseat Storage --
+  <line x1="400" y1="400" x2="480" y2="430" stroke="#D4AF37" stroke-width="1"/>
+  <text x="485" y="445" font-family="Arial" font-size="11" fill="#D4AF37">23L Underseat Storage</text>
+  <text x="485" y="458" font-family="Arial" font-size="9" fill="#888">(Milk, cups, ice, backup)</text>
+  
+  <!-- 4. QR Payment --
+  <line x1="355" y1="215" x2="420" y2="180" stroke="#D4AF37" stroke-width="1"/>
+  <text x="425" y="175" font-family="Arial" font-size="11" fill="#D4AF37">QR Payment</text>
+  <text x="425" y="188" font-family="Arial" font-size="9" fill="#888">(Touch n Go / DuitNow)</text>
+  
+  <!-- 5. Umbrella --
+  <line x1="360" y1="100" x2="480" y2="80" stroke="#D4AF37" stroke-width="1"/>
+  <text x="485" y="75" font-family="Arial" font-size="11" fill="#D4AF37">Branded Umbrella</text>
+  <text x="485" y="88" font-family="Arial" font-size="9" fill="#888">(UV protection, 2m span)</text>
+  
+  <!-- === TITLE === -->
+  <text x="400" y="570" font-family="Arial Black" font-size="20" fill="#D4AF37" text-anchor="middle">ESPRESSO KING — MOBILE BAR SETUP</text>
+  
+  <text x="400" y="590" font-family="Arial" font-size="12" fill="#888" text-anchor="middle">Yamaha NMax 155 + Custom Rear Rack "Bar" Conversion</text>
+  
+</svg>

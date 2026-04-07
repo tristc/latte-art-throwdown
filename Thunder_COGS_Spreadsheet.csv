@@ -1,0 +1,164 @@
+Item Name,Category,Time Period,Selling Price (MYR),COGS (MYR),Margin %,Key Ingredients,Equipment Needed,Notes
+3-Egg Omelette (Plain),Light Meals,8am-11am,10.00,2.09,79.1%,3 eggs + butter/oil,Fryer,Top seller 2025
+3-Egg Omelette (Cheese),Light Meals,8am-11am,11.00,2.50,77.3%,3 eggs + cheese slice + butter,Fryer,High margin
+3-Egg Omelette (Ham & Cheese),Light Meals,8am-11am,13.00,3.15,75.8%,3 eggs + ham + cheese + butter,Fryer,Protein packed
+3-Egg Omelette (Mushroom),Light Meals,8am-11am,12.00,2.75,77.1%,3 eggs + mushrooms + cheese + butter,Fryer,Veggie option
+Scrambled Eggs on Toast,Light Meals,8am-11am,9.50,2.87,69.8%,2 eggs + 2 toast + butter,Fryer + Press,Classic
+Cheesy Scrambled Eggs,Light Meals,8am-11am,10.50,3.28,68.8%,2 eggs + cheese + 2 toast + butter,Fryer + Press,Creamy
+Thunder Brekkie,Light Meals,8am-11am / 11:30am-2:30pm,16.00,5.00,68.8%,Eggs + toast + beans + mushroom + tomato,Fryer,Premium breakfast
+Big Brekky,Light Meals,8am-11am,15.00,4.50,70.0%,Eggs + toast + ham + cheese + tomato,Fryer + Press,Hearty
+French Toast (2 slices),Light Meals,8am-11am,10.00,3.50,65.0%,Brioche + egg + milk + syrup,Fryer,Sweet breakfast
+French Toast with Berries,Light Meals,8am-11am,13.00,5.50,57.7%,Brioche + egg + milk + berries + syrup,Fryer,Premium sweet
+Pancakes (3 stack),Light Meals,8am-11am,11.00,3.80,65.5%,Flour + egg + milk + butter + syrup,Fryer,American classic
+Pancakes with Banana,Light Meals,8am-11am,13.00,4.50,65.4%,Flour + egg + milk + banana + syrup,Fryer,Filling option
+Egg & Beans on Toast,Light Meals,8am-11am,9.00,3.20,64.4%,Eggs + beans + toast,Fryer + Press,British style
+Classic Cheese Toastie,Grab & Go,Before 9am / All Day,5.90,2.75,53.4%,Schiacciata + cheese slice + packaging,Press,2025 failure standalone
+Chicken Ham & Cheese Toastie,Grab & Go,Before 9am / All Day,7.90,3.40,57.0%,Schiacciata + ham + cheese + packaging,Press,Better seller
+Tomato & Cheese Toastie,Grab & Go,Before 9am / All Day,6.90,3.10,55.1%,Schiacciata + tomato + cheese + packaging,Press,Veggie
+Ultimate Grilled Cheese,Light Meals,8am-11am,11.00,4.00,63.6%,Schiacciata + 3 cheeses + butter,Press,Gourmet
+Egg Mayo Sandwich,Grab & Go,Before 9am,6.50,2.80,56.9%,Bread + 2 eggs + mayo,Prep,Cold pre-made
+Egg on Toast (2 eggs 2 toast),Grab & Go,Before 9am,7.50,2.87,61.7%,2 eggs + 2 toast + butter,Fryer + Press,Simple protein
+Overnight Oats,Grab & Go,Before 9am / All Day,8.50,2.50,70.6%,Oats + milk + yogurt + fruit,Fridge,Healthy trend
+Muesli/Granola Bowl,Grab & Go,Before 9am,9.50,3.20,66.3%,Granola + yogurt + honey + nuts,Fridge,Protein breakfast
+Butter Croissant,Grab & Go,Before 9am / After 2:30pm,5.00,2.00,60.0%,Pre-made croissant,Ambient,French classic
+Chocolate Croissant,Grab & Go,Before 9am / After 2:30pm,6.00,2.50,58.3%,Pre-made pain au chocolat,Ambient,Indulgent
+Blueberry Muffin,Grab & Go,Before 9am / After 2:30pm,6.00,2.50,58.3%,Pre-made muffin,Ambient,American classic
+Banana Walnut Muffin,Grab & Go,Before 9am / After 2:30pm,6.50,2.80,56.9%,Pre-made muffin,Ambient,Healthy-ish
+Breakfast Burrito,Grab & Go,Before 9am,9.50,4.20,55.8%,Wrap + eggs + beans + cheese + salsa,Prep,Portable
+Egg & Cheese Wrap,Grab & Go,Before 9am,8.50,3.50,58.8%,Wrap + 2 eggs + cheese,Prep,Clean hands
+Smoked Salmon Bagel,Grab & Go,Before 9am / 8am-11am,12.00,4.50,62.5%,Bagel + salmon + cream cheese,Prep,Premium
+Peanut Butter Toast,Grab & Go,Before 9am,5.00,2.00,60.0%,Toast + peanut butter,Press,Cheap protein
+Avocado Toast,Grab & Go,Before 9am / 8am-11am,9.00,4.50,50.0%,2 toast + avocado + seasoning,Prep,Trendy
+Green Eggs & Ham Sandwich,Light Meals,8am-11am,9.50,4.00,57.9%,Bread + eggs + pesto + ham,Prep,Herby fresh
+Chicken & Cheese Panini,Light Meals,8am-11am / 11:30am-2:30pm,11.00,4.50,59.1%,Schiacciata + chicken + cheese,Press,Hearty
+Turkey & Cheese Wrap,Light Meals,8am-11am,10.50,4.20,60.0%,Wrap + turkey + cheese + veg,Prep,Lean protein
+Tuna Melt,Light Meals,8am-11am / 11:30am-2:30pm,10.00,4.00,60.0%,Schiacciata + tuna + cheese,Press,2025 seller
+Grilled Veggie & Cheese,Light Meals,8am-11am,9.50,3.80,60.0%,Schiacciata + grilled veg + cheese,Press,Veggie
+Bacon & Egg Sandwich,Light Meals,8am-11am,11.00,4.50,59.1%,Bread + bacon + 2 eggs,Prep,Indulgent
+Sausage & Egg Muffin,Light Meals,8am-11am,10.00,4.20,58.0%,English muffin + sausage + egg,Prep,McMuffin style
+Greek Yogurt Bowl,Light Meals,8am-11am,10.00,3.00,70.0%,Greek yogurt + honey + granola + nuts,Fridge,High margin
+Acai Bowl,Light Meals,8am-11am,14.00,5.00,64.3%,Acai + granola + fruit + coconut,Fridge,Superfood trend
+Chia Pudding,Light Meals,8am-11am,9.00,2.50,72.2%,Chia seeds + coconut milk + fruit,Fridge,Vegan option
+Fruit Cup,Light Meals,8am-11am,7.00,3.00,57.1%,Mixed fresh fruit,Fridge,Light healthy
+Protein Box,Light Meals,8am-11am,12.00,4.50,62.5%,Eggs + nuts + cheese + fruit,Prep,Keto friendly
+Banana Bread Slice,Grab & Go,After 2:30pm,6.00,2.50,58.3%,Pre-made banana bread,Ambient,2025 seller
+Banana Bread + Butter,Grab & Go,After 2:30pm,7.50,3.00,60.0%,Banana bread + butter,Ambient,Indulgent
+Lemon Loaf,Grab & Go,After 2:30pm,6.50,2.80,56.9%,Pre-made lemon loaf,Ambient,Zesty
+Chocolate Marble Cake,Grab & Go,After 2:30pm,6.00,2.50,58.3%,Pre-made cake,Ambient,Sweet treat
+Carrot Walnut Cake,Grab & Go,After 2:30pm,7.00,3.00,57.1%,Pre-made cake,Ambient,Spiced
+Apple Crumble Slice,Grab & Go,After 2:30pm,7.00,3.20,54.3%,Pre-made crumble,Ambient,Warm comfort
+Bread Pudding,Grab & Go,After 2:30pm,7.00,3.00,57.1%,Bread + custard + raisins,Ambient,Custardy
+Burnt Cheesecake Slice,Grab & Go,After 2:30pm,9.00,4.00,55.6%,Pre-made cheesecake,Ambient,Trendy
+Tiramisu Cup,Grab & Go,After 2:30pm,10.00,4.50,55.0%,Pre-made tiramisu,Ambient,Italian
+Chocolate Lava Cake,Grab & Go,After 2:30pm,11.00,5.00,54.5%,Pre-made lava cake,Air fryer,Warm gooey
+Apple Pie Slice,Grab & Go,After 2:30pm,7.50,3.50,53.3%,Pre-made pie,Ambient,American
+Egg Tart,Grab & Go,After 2:30pm,4.50,2.00,55.6%,Pre-made egg tart,Ambient,Portuguese
+Pandan Kaya Cake,Grab & Go,After 2:30pm,6.00,2.50,58.3%,Pre-made kaya cake,Ambient,Malaysian
+Almond Croissant,Grab & Go,After 2:30pm,7.00,3.50,50.0%,Pre-made almond croissant,Ambient,Frangipane
+Ham & Cheese Croissant,Grab & Go,After 2:30pm,8.00,4.00,50.0%,Pre-made savory croissant,Ambient,Protein
+Danish Pastry,Grab & Go,After 2:30pm,6.50,3.00,53.8%,Pre-made danish,Ambient,Sweet
+Cinnamon Roll,Grab & Go,After 2:30pm,7.00,3.20,54.3%,Pre-made cinnamon roll,Ambient,Sticky
+Scone Plain,Grab & Go,After 2:30pm,5.00,2.00,60.0%,Pre-made scone,Ambient,British
+Scone with Jam & Cream,Grab & Go,After 2:30pm,8.00,3.50,56.3%,Scone + jam + cream,Ambient,Cream tea
+Pandan Muffin,Grab & Go,After 2:30pm,5.50,2.30,58.2%,Pre-made pandan muffin,Ambient,Local flavor
+Chicken Rice Box,Lunch Boxes,11:30am-2:30pm,12.00,4.50,62.5%,Rice + chicken + cucumber + sauce,Prep,Local favorite
+Nasi Goreng Box,Lunch Boxes,11:30am-2:30pm,12.00,4.80,60.0%,Fried rice + egg + chicken + veg,Prep,2025 failure
+Mee Goreng Box,Lunch Boxes,11:30am-2:30pm,12.00,4.50,62.5%,Noodles + veg + protein,Prep,Noodle option
+Teriyaki Chicken Rice,Lunch Boxes,11:30am-2:30pm,14.00,5.50,60.7%,Rice + teriyaki chicken + veg,Prep,Japanese
+Grilled Chicken Salad Box,Lunch Boxes,11:30am-2:30pm,13.00,5.00,61.5%,Greens + grilled chicken + dressing,Prep,Healthy
+Buddha Bowl,Lunch Boxes,11:30am-2:30pm,15.00,6.00,60.0%,Quinoa + roasted veg + protein + tahini,Prep,Superfood
+Sandwich Box (2 halves + chips),Lunch Boxes,11:30am-2:30pm,11.00,4.50,59.1%,Sandwich + chips,Prep,Classic lunch
+Wrap Box (wrap + salad),Lunch Boxes,11:30am-2:30pm,12.00,5.00,58.3%,Wrap + side salad,Prep,Light lunch
+Bento Box,Lunch Boxes,11:30am-2:30pm,16.00,6.50,59.4%,Rice + protein + 2 sides + pickle,Prep,Japanese complete
+Protein Box (no carbs),Lunch Boxes,11:30am-2:30pm,14.00,6.00,57.1%,Chicken + eggs + nuts + veg,Prep,Keto/paleo
+Curry Box,Lunch Boxes,11:30am-2:30pm,13.00,5.00,61.5%,Rice + curry (chicken/veg),Prep,Spicy option
+Sushi Roll Box,Lunch Boxes,11:30am-2:30pm,15.00,7.00,53.3%,8 sushi rolls + soy + wasabi,Prep,If supplier available
+Grilled Chicken Sandwich,Lunch Hot,11:30am-2:30pm,12.00,5.00,58.3%,Schiacciata + grilled chicken + veg,Press,Hot sandwich
+Chicken Parm Toastie,Lunch Hot,11:30am-2:30pm,13.00,5.50,57.7%,Schiacciata + chicken + marinara + cheese,Press,Italian style
+BBQ Chicken Wrap,Lunch Hot,11:30am-2:30pm,12.50,5.20,58.4%,Wrap + BBQ chicken + slaw,Prep,American
+Chicken Caesar Wrap,Lunch Hot,11:30am-2:30pm,13.00,5.50,57.7%,Wrap + chicken + caesar dressing + romaine,Prep,Classic
+Caprese Panini,Lunch Hot,11:30am-2:30pm,11.00,4.50,59.1%,Schiacciata + tomato + mozzarella + basil,Press,Vegetarian
+Roast Beef & Cheese,Lunch Hot,11:30am-2:30pm,14.00,6.00,57.1%,Schiacciata + roast beef + cheese,Press,Premium
+Reuben Sandwich,Lunch Hot,11:30am-2:30pm,15.00,6.50,56.7%,Schiacciata + corned beef + sauerkraut + Swiss,Press,NYC deli
+Falafel Wrap,Lunch Hot,11:30am-2:30pm,11.00,4.50,59.1%,Wrap + falafel + hummus + veg,Prep,Vegan
+Halloumi & Veggie Wrap,Lunch Hot,11:30am-2:30pm,12.00,5.00,58.3%,Wrap + halloumi + grilled veg,Prep,Vegetarian
+Quesadilla (Cheese),Lunch Hot,11:30am-2:30pm,11.00,4.50,59.1%,Tortilla + cheese + salsa,Press,Mexican
+Quesadilla (Chicken),Lunch Hot,11:30am-2:30pm,13.00,5.50,57.7%,Tortilla + chicken + cheese + salsa,Press,Protein
+Burrito (Veggie),Lunch Hot,11:30am-2:30pm,11.00,5.00,54.5%,Tortilla + rice + beans + veg,Prep,Vegan
+Burrito (Chicken),Lunch Hot,11:30am-2:30pm,13.00,6.00,53.8%,Tortilla + rice + chicken + beans,Prep,Filling
+Loaded Nachos,Lunch Hot,11:30am-2:30pm,10.00,4.50,55.0%,Chips + cheese + salsa + jalapenos,Prep,Snack lunch
+Pumpkin Soup (bowl + bread),Soups,11:30am-2:30pm,9.00,3.00,66.7%,Pumpkin + cream + spices + bread,Soup pot,Vegetarian
+Creamy Mushroom Soup,Soups,11:30am-2:30pm,10.00,3.50,65.0%,Mushrooms + cream + herbs + bread,Soup pot,Rich
+Chicken & Vegetable Soup,Soups,11:30am-2:30pm,10.00,4.00,60.0%,Chicken + mixed veg + stock + bread,Soup pot,Hearty
+Minestrone Soup,Soups,11:30am-2:30pm,9.00,3.20,64.4%,Vegetables + beans + pasta + tomato + bread,Soup pot,Italian
+Tomato & Basil Soup,Soups,11:30am-2:30pm,9.00,3.00,66.7%,Tomatoes + basil + cream + bread,Soup pot,Classic
+Sweet Corn Soup,Soups,11:30am-2:30pm,8.00,2.50,68.8%,Corn + cream + stock + bread,Soup pot,Asian
+Soup + Toastie Combo,Lunch Combos,11:30am-2:30pm,14.00,6.00,57.1%,Any soup + cheese toastie,Combo,Value bundle
+Soup + Sandwich Combo,Lunch Combos,11:30am-2:30pm,15.00,7.00,53.3%,Any soup + sandwich,Combo,Full lunch
+Basil Pesto Pasta,Pasta,11:30am-2:30pm,18.00,6.50,63.9%,Pasta + pesto + parmesan + pine nuts,Fryer/prep,Vegetarian
+Carbonara,Pasta,11:30am-2:30pm,22.00,8.50,61.4%,Pasta + egg + bacon + cream + parmesan,Fryer/prep,Rich indulgent
+Creamy Mushroom Pasta,Pasta,11:30am-2:30pm,20.00,7.50,62.5%,Pasta + mushrooms + cream + parmesan,Fryer/prep,Vegetarian
+Aglio Olio,Pasta,11:30am-2:30pm,16.00,5.50,65.6%,Pasta + garlic + olive oil + chili + parsley,Fryer/prep,Simple light
+Arrabbiata,Pasta,11:30am-2:30pm,17.00,6.00,64.7%,Pasta + tomato + chili + garlic + herbs,Fryer/prep,Spicy
+Bolognese,Pasta,11:30am-2:30pm,22.00,8.50,61.4%,Pasta + meat sauce + parmesan,Fryer/prep,Hearty
+Chicken Alfredo Pasta,Pasta,11:30am-2:30pm,24.00,9.50,60.4%,Pasta + chicken + cream + parmesan,Fryer/prep,Creamy protein
+Smoked Salmon Pasta,Pasta,11:30am-2:30pm,26.00,11.00,57.7%,Pasta + smoked salmon + cream + dill,Fryer/prep,Premium
+Pasta + Salad Combo,Pasta Combos,11:30am-2:30pm,28.00,10.00,64.3%,Any pasta + side salad,Combo,Complete meal
+Caesar Salad,Salads,11:30am-2:30pm,12.00,4.50,62.5%,Romaine + caesar dressing + croutons + parmesan,Prep,Classic
+Caesar Salad with Chicken,Salads,11:30am-2:30pm,16.00,7.00,56.3%,Caesar + grilled chicken,Prep,Protein boost
+Garden Salad,Salads,11:30am-2:30pm,10.00,3.50,65.0%,Mixed greens + tomato + cucumber + dressing,Prep,Light
+Greek Salad,Salads,11:30am-2:30pm,13.00,5.50,57.7%,Cucumber + tomato + feta + olives + onion,Prep,Mediterranean
+Chicken Salad,Salads,11:30am-2:30pm,14.00,6.00,57.1%,Mixed greens + grilled chicken + dressing,Prep,Protein
+Tuna Salad,Salads,11:30am-2:30pm,13.00,5.50,57.7%,Mixed greens + tuna + eggs + dressing,Prep,Protein
+Asian Chicken Salad,Salads,11:30am-2:30pm,14.00,6.00,57.1%,Greens + chicken + sesame dressing + crispy noodles,Prep,Asian
+Quinoa Salad,Salads,11:30am-2:30pm,13.00,5.50,57.7%,Quinoa + roasted veg + feta + lemon dressing,Prep,Superfood
+Nasi Lemak Bungkus,Local,11:30am-2:30pm,8.00,3.50,56.3%,Rice + sambal + anchovies + egg + peanuts (wrapped),Prep,National dish
+Nasi Lemak Plate,Local,11:30am-2:30pm,12.00,5.50,54.2%,Rice + sambal + chicken + egg + cucumber,Prep,With chicken
+Mee Goreng,Local,11:30am-2:30pm,10.00,4.50,55.0%,Noodles + soy + chili + veg + egg,Prep,If equipment
+Kuey Teow Goreng,Local,11:30am-2:30pm,10.00,4.50,55.0%,Flat noodles + soy + egg + veg,Prep,If equipment
+Roti Canai (2 pcs + curry),Local,11:30am-2:30pm,8.00,3.50,56.3%,Roti + dal curry,Prep,If supplier
+Curry Puff (2 pieces),Local,11:30am-2:30pm,7.00,3.00,57.1%,Pre-made curry puff,Air fryer,Snack
+Curry Laksa,Local,11:30am-2:30pm,12.00,5.50,54.2%,Noodles + curry soup + tofu + egg,Prep,Soup pot
+Rojak,Local,11:30am-2:30pm,9.00,4.50,50.0%,Fruit + veg + rojak sauce + peanuts,Prep,Local snack
+Classic Brownie,Afternoon Sweets,After 2:30pm,6.00,3.00,50.0%,Chocolate + butter + sugar + eggs + flour,Ambient,Dense chocolate
+Belgium Fudge Brownie,Afternoon Sweets,After 2:30pm,7.50,3.80,49.3%,Premium chocolate + butter + sugar + eggs,Ambient,Premium
+Blondie,Afternoon Sweets,After 2:30pm,6.50,3.20,50.8%,White chocolate + butter + sugar + eggs,Ambient,Vanilla
+Chocolate Chip Cookie,Afternoon Sweets,After 2:30pm,4.00,2.00,50.0%,Flour + butter + sugar + chocolate chips,Ambient,Classic
+Double Chocolate Cookie,Afternoon Sweets,After 2:30pm,5.00,2.50,50.0%,Flour + butter + sugar + cocoa + chocolate,Ambient,Extra choc
+Nutella Cookie,Afternoon Sweets,After 2:30pm,6.00,3.00,50.0%,Flour + butter + sugar + Nutella,Ambient,Hazelnut
+Sea Salt Chocolate Cookie,Afternoon Sweets,After 2:30pm,5.50,2.80,49.1%,Flour + butter + chocolate + sea salt,Ambient,Gourmet
+Raspberry Double Choc Cookie,Afternoon Sweets,After 2:30pm,6.00,3.00,50.0%,Flour + butter + chocolate + raspberries,Ambient,Fruit+choc
+Red Velvet Cookie,Afternoon Sweets,After 2:30pm,5.50,2.80,49.1%,Flour + butter + cocoa + red coloring + cream cheese,Ambient,Trendy
+Uji Matcha Cookie,Afternoon Sweets,After 2:30pm,6.50,3.50,46.2%,Flour + butter + matcha powder + white chocolate,Ambient,Japanese
+Macadamia White Choc Cookie,Afternoon Sweets,After 2:30pm,6.50,3.50,46.2%,Flour + butter + white choc + macadamia,Ambient,Premium nuts
+Oat & Raisin Cookie,Afternoon Sweets,After 2:30pm,4.50,2.20,51.1%,Oats + flour + butter + raisins + cinnamon,Ambient,Healthy-ish
+Peanut Butter Cookie,Afternoon Sweets,After 2:30pm,5.00,2.40,52.0%,Flour + butter + peanut butter + sugar,Ambient,Nutty
+Cheese & Crackers,Afternoon Snacks,After 2:30pm,8.00,4.00,50.0%,Cheese selection + crackers,Prep,Savory
+Hummus & Veggie Sticks,Afternoon Snacks,After 2:30pm,9.00,4.50,50.0%,Hummus + carrot + cucumber + celery,Prep,Healthy
+Popcorn (Sweet/Savory),Afternoon Snacks,After 2:30pm,5.00,2.50,50.0%,Popcorn + seasoning,Prep,Snack
+Chips/Crisps,Afternoon Snacks,After 2:30pm,4.00,2.00,50.0%,Packaged chips,Ambient,Savory
+Nuts (Mixed Pack),Afternoon Snacks,After 2:30pm,5.00,2.50,50.0%,Mixed nuts (small pack),Ambient,Healthy
+Granola Bar,Afternoon Snacks,After 2:30pm,5.50,2.80,49.1%,Pre-made granola bar,Ambient,Energy
+Energy Ball (Protein/Date),Afternoon Snacks,After 2:30pm,4.50,2.20,51.1%,Dates + nuts + protein powder,Ambient,Healthy
+Fruit Cup,Afternoon Snacks,After 2:30pm,7.00,3.50,50.0%,Fresh mixed fruit,Fridge,Fresh
+Yogurt Parfait,Afternoon Snacks,After 2:30pm,8.00,4.00,50.0%,Yogurt + granola + fruit (layered),Fridge,Healthy
+Iced Latte,Cold Drinks,After 2:30pm,9.00,3.50,61.1%,Espresso + milk + ice,Fridge,Cold coffee
+Iced Americano,Cold Drinks,After 2:30pm,8.00,2.50,68.8%,Espresso + water + ice,Fridge,Cold black
+Iced Matcha Latte,Cold Drinks,After 2:30pm,12.00,5.00,58.3%,Matcha + milk + ice,Fridge,Japanese trend
+Iced Chocolate,Cold Drinks,After 2:30pm,10.00,4.00,60.0%,Chocolate + milk + ice,Fridge,Cold sweet
+Cold Brew,Cold Drinks,After 2:30pm,10.00,3.00,70.0%,Cold brewed coffee + ice,Fridge,Smooth
+Lemon Iced Tea,Cold Drinks,After 2:30pm,8.00,3.00,62.5%,Tea + lemon + sugar + ice,Fridge,Refreshing
+Peach Iced Tea,Cold Drinks,After 2:30pm,9.00,3.50,61.1%,Tea + peach + sugar + ice,Fridge,Fruity
+Fresh Juice (Orange/Apple),Cold Drinks,After 2:30pm,10.00,4.00,60.0%,Fresh squeezed juice,Fridge,Healthy
+Smoothie (Banana/Berry),Cold Drinks,After 2:30pm,12.00,5.00,58.3%,Fruit + yogurt + ice blended,Fridge,Thick
+Milkshake,Cold Drinks,After 2:30pm,13.00,5.50,57.7%,Ice cream + milk blended,Fridge,Indulgent
+Frappuccino,Cold Drinks,After 2:30pm,14.00,6.00,57.1%,Coffee + ice cream + ice blended,Fridge,Blended ice
+Affogato,Cold Drinks,After 2:30pm,11.00,4.50,59.1%,Espresso poured over ice cream,Fridge,Dessert coffee
+Sparkling Lemonade,Cold Drinks,After 2:30pm,8.00,3.00,62.5%,Lemon juice + sugar + sparkling water + ice,Fridge,Refreshing
+Kombucha,Cold Drinks,After 2:30pm,12.00,6.00,50.0%,Fermented tea,Fridge,Health trend
+Whole Banana Bread Loaf,Take Home,After 2:30pm,25.00,12.00,52.0%,Whole loaf banana bread,Ambient,Take home
+Cookie Gift Box (6 pcs),Take Home,After 2:30pm,30.00,15.00,50.0%,6 assorted cookies in box,Ambient,Gift
+Coffee Beans 250g,Retail,After 2:30pm,35.00,15.00,57.1%,250g bag roasted beans,Ambient,Retail
+Coffee Beans 1kg,Retail,After 2:30pm,120.00,50.00,58.3%,1kg bag roasted beans,Ambient,Retail
+Thunder Mug,Merchandise,After 2:30pm,25.00,10.00,60.0%,Branded ceramic mug,Ambient,Merch
+Thunder Tote Bag,Merchandise,After 2:30pm,20.00,8.00,60.0%,Branded canvas bag,Ambient,Merch

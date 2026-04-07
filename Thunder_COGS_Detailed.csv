@@ -1,0 +1,311 @@
+Menu Item,Ingredient,Unit,Portion Size,Unit Cost (MYR),Ingredient Cost (MYR),Selling Price (MYR),Total COGS (MYR),Margin %,Category,Time Period
+3-Egg Omelette (Plain),Egg,pc,3,0.53,1.59,10.00,2.09,79.1%,Light Meals,8am-11am
+3-Egg Omelette (Plain),Butter,gm,10,0.06,0.60,10.00,2.09,79.1%,Light Meals,8am-11am
+3-Egg Omelette (Plain),Salt,gm,2,0.01,0.02,10.00,2.09,79.1%,Light Meals,8am-11am
+3-Egg Omelette (Plain),Pepper,gm,1,0.08,0.08,10.00,2.09,79.1%,Light Meals,8am-11am
+3-Egg Omelette (Plain),Packaging,piece,1,0.50,0.50,10.00,2.09,79.1%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Egg,pc,3,0.53,1.59,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Butter,gm,10,0.06,0.60,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Bega Cheese,slice,1,0.41,0.41,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Salt,gm,2,0.01,0.02,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Pepper,gm,1,0.08,0.08,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Cheese),Packaging,piece,1,0.50,0.50,11.00,2.50,77.3%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Egg,pc,3,0.53,1.59,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Butter,gm,10,0.06,0.60,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Bega Cheese,slice,1,0.41,0.41,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Chicken Ham,serving,1,0.65,0.65,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Salt,gm,2,0.01,0.02,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Pepper,gm,1,0.08,0.08,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Ham & Cheese),Packaging,piece,1,0.50,0.50,13.00,3.15,75.8%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Egg,pc,3,0.53,1.59,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Butter,gm,10,0.06,0.60,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Bega Cheese,slice,1,0.41,0.41,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Button Mushroom,gm,30,0.03,0.90,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Salt,gm,2,0.01,0.02,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Pepper,gm,1,0.08,0.08,12.00,2.75,77.1%,Light Meals,8am-11am
+3-Egg Omelette (Mushroom),Packaging,piece,1,0.50,0.50,12.00,2.75,77.1%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Egg,pc,2,0.53,1.06,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Butter,gm,15,0.06,0.90,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Schiacciata Bread,pc,2,2.29,4.58,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Milk,ml,30,0.01,0.30,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Salt,gm,2,0.01,0.02,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Pepper,gm,1,0.08,0.08,9.50,2.87,69.8%,Light Meals,8am-11am
+Scrambled Eggs on Toast,Packaging,piece,1,0.50,0.50,9.50,2.87,69.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Egg,pc,2,0.53,1.06,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Butter,gm,15,0.06,0.90,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Schiacciata Bread,pc,2,2.29,4.58,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Milk,ml,30,0.01,0.30,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Bega Cheese,slice,1,0.41,0.41,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Salt,gm,2,0.01,0.02,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Pepper,gm,1,0.08,0.08,10.50,3.28,68.8%,Light Meals,8am-11am
+Cheesy Scrambled Eggs,Packaging,piece,1,0.50,0.50,10.50,3.28,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Egg,pc,2,0.53,1.06,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Schiacciata Bread,pc,2,2.29,4.58,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Butter,gm,15,0.06,0.90,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Baked Beans,gm,80,0.03,2.40,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Button Mushroom,gm,30,0.03,0.90,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Tomato,pc,0.5,0.50,0.25,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Salt,gm,2,0.01,0.02,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Pepper,gm,1,0.08,0.08,16.00,5.00,68.8%,Light Meals,8am-11am
+Thunder Brekkie,Packaging,piece,1,0.50,0.50,16.00,5.00,68.8%,Light Meals,8am-11am
+Big Brekky,Egg,pc,2,0.53,1.06,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Schiacciata Bread,pc,2,2.29,4.58,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Butter,gm,10,0.06,0.60,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Chicken Ham,serving,1,0.65,0.65,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Bega Cheese,slice,1,0.41,0.41,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Tomato,pc,0.5,0.50,0.25,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Salt,gm,2,0.01,0.02,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Pepper,gm,1,0.08,0.08,15.00,4.50,70.0%,Light Meals,8am-11am
+Big Brekky,Packaging,piece,1,0.50,0.50,15.00,4.50,70.0%,Light Meals,8am-11am
+French Toast (2 slices),Brioche Bread,slice,2,2.08,4.16,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Egg,pc,1,0.53,0.53,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Milk,ml,50,0.01,0.50,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Butter,gm,10,0.06,0.60,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Cinnamon,gm,2,0.08,0.16,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Pancake Syrup,ml,20,0.02,0.40,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Sugar,gm,10,0.00,0.05,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast (2 slices),Packaging,piece,1,0.50,0.50,10.00,3.50,65.0%,Light Meals,8am-11am
+French Toast with Berries,Brioche Bread,slice,2,2.08,4.16,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Egg,pc,1,0.53,0.53,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Milk,ml,50,0.01,0.50,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Butter,gm,10,0.06,0.60,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Cinnamon,gm,2,0.08,0.16,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Pancake Syrup,ml,20,0.02,0.40,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Mixed Berries,gm,50,0.07,3.50,13.00,5.50,57.7%,Light Meals,8am-11am
+French Toast with Berries,Packaging,piece,1,0.50,0.50,13.00,5.50,57.7%,Light Meals,8am-11am
+Pancakes (3 stack),Self Raising Flour,gm,80,0.01,0.50,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Egg,pc,1,0.53,0.53,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Milk,ml,100,0.01,1.00,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Butter,gm,15,0.06,0.90,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Sugar,gm,15,0.00,0.08,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Baking Powder,gm,5,0.02,0.08,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Pancake Syrup,ml,25,0.02,0.50,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes (3 stack),Packaging,piece,1,0.50,0.50,11.00,3.80,65.5%,Light Meals,8am-11am
+Pancakes with Banana,Self Raising Flour,gm,80,0.01,0.50,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Egg,pc,1,0.53,0.53,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Milk,ml,100,0.01,1.00,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Butter,gm,15,0.06,0.90,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Sugar,gm,15,0.00,0.08,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Baking Powder,gm,5,0.02,0.08,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Pancake Syrup,ml,25,0.02,0.50,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Banana,pc,0.5,1.00,0.50,13.00,4.50,65.4%,Light Meals,8am-11am
+Pancakes with Banana,Packaging,piece,1,0.50,0.50,13.00,4.50,65.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Egg,pc,2,0.53,1.06,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Schiacciata Bread,pc,2,2.29,4.58,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Butter,gm,5,0.06,0.30,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Baked Beans,gm,100,0.03,3.00,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Salt,gm,2,0.01,0.02,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Pepper,gm,1,0.08,0.08,9.00,3.20,64.4%,Light Meals,8am-11am
+Egg & Beans on Toast,Packaging,piece,1,0.50,0.50,9.00,3.20,64.4%,Light Meals,8am-11am
+Classic Cheese Toastie,Schiacciata Bread,pc,1,2.29,2.29,5.90,2.75,53.4%,Grab & Go,Before 9am
+Classic Cheese Toastie,Bega Cheese,slice,2,0.41,0.82,5.90,2.75,53.4%,Grab & Go,Before 9am
+Classic Cheese Toastie,Butter,gm,5,0.06,0.30,5.90,2.75,53.4%,Grab & Go,Before 9am
+Classic Cheese Toastie,Packaging,piece,1,0.50,0.50,5.90,2.75,53.4%,Grab & Go,Before 9am
+Chicken Ham & Cheese Toastie,Schiacciata Bread,pc,1,2.29,2.29,7.90,3.40,57.0%,Grab & Go,Before 9am
+Chicken Ham & Cheese Toastie,Bega Cheese,slice,2,0.41,0.82,7.90,3.40,57.0%,Grab & Go,Before 9am
+Chicken Ham & Cheese Toastie,Chicken Ham,serving,1,0.65,0.65,7.90,3.40,57.0%,Grab & Go,Before 9am
+Chicken Ham & Cheese Toastie,Butter,gm,5,0.06,0.30,7.90,3.40,57.0%,Grab & Go,Before 9am
+Chicken Ham & Cheese Toastie,Packaging,piece,1,0.50,0.50,7.90,3.40,57.0%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Schiacciata Bread,pc,1,2.29,2.29,6.90,3.10,55.1%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Bega Cheese,slice,2,0.41,0.82,6.90,3.10,55.1%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Tomato,slice,2,0.25,0.50,6.90,3.10,55.1%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Butter,gm,5,0.06,0.30,6.90,3.10,55.1%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Oregano,gm,1,0.22,0.22,6.90,3.10,55.1%,Grab & Go,Before 9am
+Tomato & Cheese Toastie,Packaging,piece,1,0.50,0.50,6.90,3.10,55.1%,Grab & Go,Before 9am
+Ultimate Grilled Cheese,Schiacciata Bread,pc,1,2.29,2.29,11.00,4.00,63.6%,Light Meals,8am-11am
+Ultimate Grilled Cheese,Bega Cheese,slice,1,0.41,0.41,11.00,4.00,63.6%,Light Meals,8am-11am
+Ultimate Grilled Cheese,Parmesan Cheese,gm,20,0.07,1.40,11.00,4.00,63.6%,Light Meals,8am-11am
+Ultimate Grilled Cheese,Cheddar Cheese,slice,1,0.45,0.45,11.00,4.00,63.6%,Light Meals,8am-11am
+Ultimate Grilled Cheese,Butter,gm,10,0.06,0.60,11.00,4.00,63.6%,Light Meals,8am-11am
+Ultimate Grilled Cheese,Packaging,piece,1,0.50,0.50,11.00,4.00,63.6%,Light Meals,8am-11am
+Egg Mayo Sandwich,Thunder Sandwich Bread,slice,2,0.63,1.26,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Egg,pc,2,0.53,1.06,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Mayonnaise,gm,20,0.02,0.40,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Salt,gm,2,0.01,0.02,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Pepper,gm,1,0.08,0.08,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Lettuce,leaf,1,0.30,0.30,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg Mayo Sandwich,Packaging,piece,1,0.50,0.50,6.50,2.80,56.9%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Egg,pc,2,0.53,1.06,7.50,2.87,61.7%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Schiacciata Bread,pc,2,2.29,4.58,7.50,2.87,61.7%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Butter,gm,5,0.06,0.30,7.50,2.87,61.7%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Salt,gm,2,0.01,0.02,7.50,2.87,61.7%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Pepper,gm,1,0.08,0.08,7.50,2.87,61.7%,Grab & Go,Before 9am
+Egg on Toast (2 eggs 2 toast),Packaging,piece,1,0.50,0.50,7.50,2.87,61.7%,Grab & Go,Before 9am
+Overnight Oats,Rolled Oats,gm,60,0.01,0.35,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Farm Milk,ml,100,0.01,1.00,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Greek Yoghurt,gm,50,0.02,1.00,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Honey,ml,15,0.02,0.30,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Mixed Berries,gm,30,0.07,2.10,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Chia Seeds,gm,10,0.05,0.50,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Vanilla Extract,ml,2,0.36,0.07,8.50,2.50,70.6%,Grab & Go,Before 9am
+Overnight Oats,Container,piece,1,0.50,0.50,8.50,2.50,70.6%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Rolled Oats,gm,40,0.01,0.23,9.50,3.20,66.3%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Greek Yoghurt,gm,150,0.02,3.00,9.50,3.20,66.3%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Honey,ml,20,0.02,0.40,9.50,3.20,66.3%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Mixed Nuts,gm,20,0.05,1.00,9.50,3.20,66.3%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Dried Fruits,gm,20,0.05,1.00,9.50,3.20,66.3%,Grab & Go,Before 9am
+Muesli/Granola Bowl,Container,piece,1,0.50,0.50,9.50,3.20,66.3%,Grab & Go,Before 9am
+Butter Croissant,Butter Croissant,pc,1,2.00,2.00,5.00,2.00,60.0%,Grab & Go,Before 9am
+Butter Croissant,Packaging,piece,1,0.50,0.50,5.00,2.00,60.0%,Grab & Go,Before 9am
+Chocolate Croissant,Chocolate Croissant,pc,1,2.50,2.50,6.00,2.50,58.3%,Grab & Go,Before 9am
+Chocolate Croissant,Packaging,piece,1,0.50,0.50,6.00,2.50,58.3%,Grab & Go,Before 9am
+Blueberry Muffin,Blueberry Muffin,pc,1,2.50,2.50,6.00,2.50,58.3%,Grab & Go,Before 9am
+Blueberry Muffin,Packaging,piece,1,0.50,0.50,6.00,2.50,58.3%,Grab & Go,Before 9am
+Banana Walnut Muffin,Banana Walnut Muffin,pc,1,2.80,2.80,6.50,2.80,56.9%,Grab & Go,Before 9am
+Banana Walnut Muffin,Packaging,piece,1,0.50,0.50,6.50,2.80,56.9%,Grab & Go,Before 9am
+Breakfast Burrito,Flour Tortilla,pc,1,0.80,0.80,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Egg,pc,2,0.53,1.06,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Baked Beans,gm,50,0.03,1.50,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Bega Cheese,slice,1,0.41,0.41,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Salsa,gm,30,0.05,1.50,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Avocado,gm,30,0.08,2.40,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Sour Cream,gm,15,0.03,0.45,9.50,4.20,55.8%,Grab & Go,Before 9am
+Breakfast Burrito,Packaging,piece,1,0.50,0.50,9.50,4.20,55.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Flour Tortilla,pc,1,0.80,0.80,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Egg,pc,2,0.53,1.06,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Bega Cheese,slice,1,0.41,0.41,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Butter,gm,5,0.06,0.30,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Salt,gm,2,0.01,0.02,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Pepper,gm,1,0.08,0.08,8.50,3.50,58.8%,Grab & Go,Before 9am
+Egg & Cheese Wrap,Packaging,piece,1,0.50,0.50,8.50,3.50,58.8%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Bagel,pc,1,1.50,1.50,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Smoked Salmon,gm,30,0.12,3.60,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Cream Cheese,gm,25,0.08,2.00,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Capers,gm,5,0.10,0.50,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Red Onion,slice,2,0.10,0.20,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Dill,gm,2,0.10,0.20,12.00,4.50,62.5%,Grab & Go,Before 9am
+Smoked Salmon Bagel,Packaging,piece,1,0.50,0.50,12.00,4.50,62.5%,Grab & Go,Before 9am
+Peanut Butter Toast,Schiacciata Bread,pc,1,2.29,2.29,5.00,2.00,60.0%,Grab & Go,Before 9am
+Peanut Butter Toast,Peanut Butter,gm,30,0.01,0.30,5.00,2.00,60.0%,Grab & Go,Before 9am
+Peanut Butter Toast,Honey,ml,10,0.02,0.20,5.00,2.00,60.0%,Grab & Go,Before 9am
+Peanut Butter Toast,Packaging,piece,1,0.50,0.50,5.00,2.00,60.0%,Grab & Go,Before 9am
+Avocado Toast,Sourdough Bread,slice,2,2.17,4.34,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Avocado,pc,0.5,3.00,1.50,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Lemon Juice,ml,5,0.01,0.05,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Chili Flakes,gm,1,0.00,0.01,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Salt,gm,2,0.01,0.02,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Olive Oil,ml,5,0.06,0.30,9.00,4.50,50.0%,Grab & Go,Before 9am
+Avocado Toast,Packaging,piece,1,0.50,0.50,9.00,4.50,50.0%,Grab & Go,Before 9am
+Green Eggs & Ham Sandwich,Thunder Sandwich Bread,slice,2,0.63,1.26,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Egg,pc,2,0.53,1.06,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Pesto,gm,15,0.02,0.30,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Chicken Ham,serving,1,0.65,0.65,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Bega Cheese,slice,1,0.41,0.41,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Lettuce,leaf,1,0.30,0.30,9.50,4.00,57.9%,Light Meals,8am-11am
+Green Eggs & Ham Sandwich,Packaging,piece,1,0.50,0.50,9.50,4.00,57.9%,Light Meals,8am-11am
+Chicken & Cheese Panini,Schiacciata Bread,pc,1,2.29,2.29,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Grilled Chicken Breast,gm,60,0.02,1.20,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Bega Cheese,slice,2,0.41,0.82,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Tomato,slice,2,0.25,0.50,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Pesto,gm,10,0.02,0.20,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Butter,gm,5,0.06,0.30,11.00,4.50,59.1%,Light Meals,8am-11am
+Chicken & Cheese Panini,Packaging,piece,1,0.50,0.50,11.00,4.50,59.1%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Flour Tortilla,pc,1,0.80,0.80,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Turkey Ham,serving,1,0.90,0.90,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Bega Cheese,slice,1,0.41,0.41,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Lettuce,leaf,2,0.30,0.60,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Tomato,slice,2,0.25,0.50,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Mayonnaise,gm,15,0.02,0.30,10.50,4.20,60.0%,Light Meals,8am-11am
+Turkey & Cheese Wrap,Packaging,piece,1,0.50,0.50,10.50,4.20,60.0%,Light Meals,8am-11am
+Tuna Melt,Schiacciata Bread,pc,1,2.29,2.29,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Canned Tuna,gm,80,0.02,1.60,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Bega Cheese,slice,1,0.41,0.41,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Mayonnaise,gm,20,0.02,0.40,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Red Onion,gm,10,0.00,0.04,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Lemon Juice,ml,5,0.01,0.05,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Butter,gm,5,0.06,0.30,10.00,4.00,60.0%,Light Meals,8am-11am
+Tuna Melt,Packaging,piece,1,0.50,0.50,10.00,4.00,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Schiacciata Bread,pc,1,2.29,2.29,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Zucchini,gm,30,0.01,0.30,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Eggplant,gm,30,0.01,0.30,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Bell Pepper,gm,20,0.01,0.20,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Bega Cheese,slice,2,0.41,0.82,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Pesto,gm,10,0.02,0.20,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Butter,gm,5,0.06,0.30,9.50,3.80,60.0%,Light Meals,8am-11am
+Grilled Veggie & Cheese,Packaging,piece,1,0.50,0.50,9.50,3.80,60.0%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Thunder Sandwich Bread,slice,2,0.63,1.26,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Egg,pc,2,0.53,1.06,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Bacon Strips,strips,2,0.60,1.20,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Butter,gm,5,0.06,0.30,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Tomato Sauce,gm,10,0.01,0.10,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Lettuce,leaf,1,0.30,0.30,11.00,4.50,59.1%,Light Meals,8am-11am
+Bacon & Egg Sandwich,Packaging,piece,1,0.50,0.50,11.00,4.50,59.1%,Light Meals,8am-11am
+Sausage & Egg Muffin,English Muffin,pc,1,1.00,1.00,10.00,4.20,58.0%,Light Meals,8am-11am
+Sausage & Egg Muffin,Egg,pc,1,0.53,0.53,10.00,4.20,58.0%,Light Meals,8am-11am
+Sausage & Egg Muffin,Sausage Patty,pc,1,1.20,1.20,10.00,4.20,58.0%,Light Meals,8am-11am
+Sausage & Egg Muffin,Bega Cheese,slice,1,0.41,0.41,10.00,4.20,58.0%,Light Meals,8am-11am
+Sausage & Egg Muffin,Butter,gm,5,0.06,0.30,10.00,4.20,58.0%,Light Meals,8am-11am
+Sausage & Egg Muffin,Packaging,piece,1,0.50,0.50,10.00,4.20,58.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Greek Yoghurt,gm,200,0.02,4.00,10.00,3.00,70.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Honey,ml,20,0.02,0.40,10.00,3.00,70.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Granola,gm,30,0.01,0.30,10.00,3.00,70.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Mixed Nuts,gm,15,0.05,0.75,10.00,3.00,70.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Mixed Berries,gm,20,0.07,1.40,10.00,3.00,70.0%,Light Meals,8am-11am
+Greek Yogurt Bowl,Container,piece,1,0.50,0.50,10.00,3.00,70.0%,Light Meals,8am-11am
+Acai Bowl,Acai Puree,gm,100,0.03,3.00,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Granola,gm,40,0.01,0.40,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Banana,pc,0.5,1.00,0.50,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Mixed Berries,gm,30,0.07,2.10,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Coconut Flakes,gm,10,0.01,0.10,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Chia Seeds,gm,10,0.05,0.50,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Honey,ml,10,0.02,0.20,14.00,5.00,64.3%,Light Meals,8am-11am
+Acai Bowl,Container,piece,1,0.50,0.50,14.00,5.00,64.3%,Light Meals,8am-11am
+Chia Pudding,Chia Seeds,gm,40,0.05,2.00,9.00,2.50,72.2%,Light Meals,8am-11am
+Chia Pudding,Coconut Milk,ml,150,0.01,1.50,9.00,2.50,72.2%,Light Meals,8am-11am
+Chia Pudding,Vanilla Extract,ml,3,0.36,0.10,9.00,2.50,72.2%,Light Meals,8am-11am
+Chia Pudding,Honey,ml,15,0.02,0.30,9.00,2.50,72.2%,Light Meals,8am-11am
+Chia Pudding,Mixed Berries,gm,20,0.07,1.40,9.00,2.50,72.2%,Light Meals,8am-11am
+Chia Pudding,Container,piece,1,0.50,0.50,9.00,2.50,72.2%,Light Meals,8am-11am
+Fruit Cup,Mixed Fresh Fruit,gm,200,0.02,4.00,7.00,3.00,57.1%,Light Meals,8am-11am
+Fruit Cup,Container,piece,1,0.50,0.50,7.00,3.00,57.1%,Light Meals,8am-11am
+Protein Box,Egg,pc,2,0.53,1.06,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Mixed Nuts,gm,30,0.05,1.50,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Bega Cheese,slice,1,0.41,0.41,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Fresh Fruit,gm,100,0.02,2.00,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Cherry Tomatoes,gm,50,0.01,0.50,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Cucumber,gm,30,0.01,0.30,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Hummus,gm,30,0.05,1.50,12.00,4.50,62.5%,Light Meals,8am-11am
+Protein Box,Container,piece,1,0.50,0.50,12.00,4.50,62.5%,Light Meals,8am-11am
+Banana Bread Slice,Banana Bread (sliced),slice,1,2.50,2.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Banana Bread Slice,Packaging,piece,1,0.50,0.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Banana Bread + Butter,Banana Bread (sliced),slice,1,2.50,2.50,7.50,3.00,60.0%,Grab & Go,After 2:30pm
+Banana Bread + Butter,Butter,portion,1,0.50,0.50,7.50,3.00,60.0%,Grab & Go,After 2:30pm
+Banana Bread + Butter,Packaging,piece,1,0.50,0.50,7.50,3.00,60.0%,Grab & Go,After 2:30pm
+Lemon Loaf,Lemon Loaf (sliced),slice,1,2.80,2.80,6.50,2.80,56.9%,Grab & Go,After 2:30pm
+Lemon Loaf,Packaging,piece,1,0.50,0.50,6.50,2.80,56.9%,Grab & Go,After 2:30pm
+Chocolate Marble Cake,Chocolate Marble Cake (sliced),slice,1,2.50,2.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Chocolate Marble Cake,Packaging,piece,1,0.50,0.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Carrot Walnut Cake,Carrot Walnut Cake (sliced),slice,1,3.00,3.00,7.00,3.00,57.1%,Grab & Go,After 2:30pm
+Carrot Walnut Cake,Packaging,piece,1,0.50,0.50,7.00,3.00,57.1%,Grab & Go,After 2:30pm
+Apple Crumble Slice,Apple Crumble (sliced),slice,1,3.20,3.20,7.00,3.20,54.3%,Grab & Go,After 2:30pm
+Apple Crumble Slice,Packaging,piece,1,0.50,0.50,7.00,3.20,54.3%,Grab & Go,After 2:30pm
+Bread Pudding,Bread Pudding (sliced),slice,1,3.00,3.00,7.00,3.00,57.1%,Grab & Go,After 2:30pm
+Bread Pudding,Packaging,piece,1,0.50,0.50,7.00,3.00,57.1%,Grab & Go,After 2:30pm
+Burnt Cheesecake Slice,Burnt Cheesecake (sliced),slice,1,4.00,4.00,9.00,4.00,55.6%,Grab & Go,After 2:30pm
+Burnt Cheesecake Slice,Packaging,piece,1,0.50,0.50,9.00,4.00,55.6%,Grab & Go,After 2:30pm
+Tiramisu Cup,Tiramisu (cup),cup,1,4.50,4.50,10.00,4.50,55.0%,Grab & Go,After 2:30pm
+Tiramisu Cup,Packaging,piece,1,0.50,0.50,10.00,4.50,55.0%,Grab & Go,After 2:30pm
+Chocolate Lava Cake,Chocolate Lava Cake,pc,1,5.00,5.00,11.00,5.00,54.5%,Grab & Go,After 2:30pm
+Chocolate Lava Cake,Packaging,piece,1,0.50,0.50,11.00,5.00,54.5%,Grab & Go,After 2:30pm
+Apple Pie Slice,Apple Pie (sliced),slice,1,3.50,3.50,7.50,3.50,53.3%,Grab & Go,After 2:30pm
+Apple Pie Slice,Packaging,piece,1,0.50,0.50,7.50,3.50,53.3%,Grab & Go,After 2:30pm
+Egg Tart,Egg Tart,pc,1,2.00,2.00,4.50,2.00,55.6%,Grab & Go,After 2:30pm
+Egg Tart,Packaging,piece,1,0.50,0.50,4.50,2.00,55.6%,Grab & Go,After 2:30pm
+Pandan Kaya Cake,Pandan Kaya Cake (sliced),slice,1,2.50,2.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Pandan Kaya Cake,Packaging,piece,1,0.50,0.50,6.00,2.50,58.3%,Grab & Go,After 2:30pm
+Almond Croissant,Almond Croissant,pc,1,3.50,3.50,7.00,3.50,50.0%,Grab & Go,After 2:30pm
+Almond Croissant,Packaging,piece,1,0.50,0.50,7.00,3.50,50.0%,Grab & Go,After 2:30pm
+Ham & Cheese Croissant,Ham & Cheese Croissant,pc,1,4.00,4.00,8.00,4.00,50.0%,Grab & Go,After 2:30pm
+Ham & Cheese Croissant,Packaging,piece,1,0.50,0.50,8.00,4.00,50.0%,Grab & Go,After 2:30pm
+Danish Pastry,Danish Pastry,pc,1,3.00,3.00,6.50,3.00,53.8%,Grab & Go,After 2:30pm
+Danish Pastry,Packaging,piece,1,0.50,0.50,6.50,3.00,53.8%,Grab & Go,After 2:30pm
+Cinnamon Roll,Cinnamon Roll,pc,1,3.20,3.20,7.00,3.20,54.3%,Grab & Go,After 2:30pm
+Cinnamon Roll,Packaging,piece,1,0.50,0.50,7.00,3.20,54.3%,Grab & Go,After 2:30pm
+Scone Plain,Scone,pc,1,2.00,2.00,5.00,2.00,60.0%,Grab & Go,After 2:30pm
+Scone Plain,Packaging,piece,1,0.50,0.50,5.00,2.00,60.0%,Grab & Go,After 2:30pm
+Scone with Jam & Cream,Scone,pc,1,2.00,2.00,8.00,3.50,56.3%,Grab & Go,After 2:30pm
+Scone with Jam & Cream,Clotted Cream,gm,30,0.05,1.50,8.00,3.50,56.3%,Grab & Go,After 2:30pm
+Scone with Jam & Cream,Berry Jam,gm,20,0.03,0.50,8.00,3.50,56.3%,Grab & Go,After 2:30pm
+Scone with Jam & Cream,Packaging,piece,1,0.50,0.50,8.00,3.50,56.3%,Grab & Go,After 2:30pm
+Pandan Muffin,Pandan Muffin,pc,1,2.30,2.30,5.50,2.30,58.2%,Grab & Go,After 2:30pm
+Pandan Muffin,Packaging,piece,1,0.50,0.50,5.50,2.30,58.2%,Grab & Go,After 2:30pm

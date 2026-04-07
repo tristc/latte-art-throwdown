@@ -1,0 +1,14 @@
+# Railway Configuration
+# This file is optional - Railway detects Node.js automatically
+# But having it gives you more control
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

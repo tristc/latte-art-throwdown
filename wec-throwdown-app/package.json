@@ -1,0 +1,20 @@
+{
+  "name": "wec-throwdown-platform",
+  "version": "1.0.0",
+  "description": "WEC Latte Art Throwdown Platform - Full Stack",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
