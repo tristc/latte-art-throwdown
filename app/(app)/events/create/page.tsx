@@ -166,8 +166,8 @@ export default function CreateEventPage() {
               onChange={handleChange}
               className="input-field"
             >
-              <option value={EventFormat.MATCH_PATTERN}>Match Pattern</option>
-              <option value={EventFormat.FREESTYLE}>Freestyle</option>
+              <option value='MATCH_PATTERN'>Match Pattern</option>
+              <option value='FREESTYLE'>Freestyle</option>
             </select>
           </div>
 
