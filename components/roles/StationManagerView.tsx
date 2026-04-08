@@ -125,7 +125,7 @@ export function StationManagerView({ heat, onPhaseChange, onComplete }: StationM
           </div>
           
           {/* Progress Bar */}
-          <{phase !== 'idle' && (
+          {phase !== 'idle' && (
             <div className="mt-6">
               <div className="h-2 bg-zinc-800 rounded-full overflow-hidden">
                 <div 
