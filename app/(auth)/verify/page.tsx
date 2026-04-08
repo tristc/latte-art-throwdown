@@ -113,7 +113,7 @@ export default function VerifyPage() {
 
         <div className="mt-6 text-center text-sm text-zinc-500">
           <p>Didn't receive the email?</p>
-          <p className="mt-1">Check your spam folder or{</p>
+          <p className="mt-1">Check your spam folder or</p>
           <a href="/signup" className="text-amber-500 hover:text-amber-400">
             try signing up again
           </a>
