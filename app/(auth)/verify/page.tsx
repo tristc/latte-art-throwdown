@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase/client';
@@ -8,84 +8,55 @@ import { supabase } from '@/lib/supabase/client';
 export default function VerifyPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
-  const [otp, setOtp] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [resendLoading, setResendLoading] = useState(false);
-  const [codeSent, setCodeSent] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [message, setMessage] = useState('Checking your account...');
 
   useEffect(() => {
-    // Get email from localStorage or URL params
-    const pendingEmail = localStorage.getItem('pendingVerificationEmail');
-    if (pendingEmail) {
-      setEmail(pendingEmail);
-      // Auto-send OTP on page load
-      sendOTP(pendingEmail);
-    } else {
-      // Check if user is already logged in (email confirmed)
-      checkSession();
-    }
+    checkSession();
   }, []);
 
   const checkSession = async () => {
-    const { data: { session } } = await supabase.auth.getSession();
-    if (session?.user?.email_confirmed_at) {
-      router.push('/dashboard');
-    }
-  };
-
-  const sendOTP = async (emailToUse: string) => {
     try {
-      const { error } = await supabase.auth.signInWithOtp({
-        email: emailToUse,
-        options: {
-          shouldCreateUser: false, // Don't create new user, just verify existing
-        },
-      });
-
+      // Check if user is already logged in and confirmed
+      const { data: { session }, error } = await supabase.auth.getSession();
+      
       if (error) throw error;
-      setCodeSent(true);
+      
+      if (session?.user) {
+        // User is logged in, check if email is confirmed
+        if (session.user.email_confirmed_at) {
+          // Email confirmed, go to dashboard
+          router.push('/dashboard');
+          return;
+        } else {
+          // Waiting for confirmation
+          const pendingEmail = localStorage.getItem('pendingVerificationEmail');
+          if (pendingEmail) {
+            setEmail(pendingEmail);
+          }
+          setMessage('Please check your email and click the confirmation link.');
+          setLoading(false);
+        }
+      } else {
+        // No session, check if there's a pending email
+        const pendingEmail = localStorage.getItem('pendingVerificationEmail');
+        if (pendingEmail) {
+          setEmail(pendingEmail);
+          setMessage('Please check your email and click the confirmation link we sent to ' + pendingEmail);
+        } else {
+          setMessage('No pending verification found. Please sign up or log in.');
+        }
+        setLoading(false);
+      }
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to send code');
-    }
-  };
-
-  const handleVerify = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
-
-    try {
-      const { error } = await supabase.auth.verifyOtp({
-        email,
-        token: otp,
-        type: 'email',
-      });
-
-      if (error) throw error;
-
-      // Clear pending verification email
-      localStorage.removeItem('pendingVerificationEmail');
-      router.push('/dashboard');
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to verify');
-    } finally {
+      setMessage('Something went wrong. Please try signing up again.');
       setLoading(false);
     }
   };
 
-  const handleResend = async () => {
-    if (!email) {
-      setError('Email not found. Please sign up again.');
-      return;
-    }
-    setResendLoading(true);
-    try {
-      await sendOTP(email);
-      alert('Verification code resent!');
-    } finally {
-      setResendLoading(false);
-    }
+  const handleCheckAgain = async () => {
+    setLoading(true);
+    await checkSession();
   };
 
   return (
@@ -101,74 +72,52 @@ export default function VerifyPage() {
           <h1 className="text-3xl font-bold text-zinc-100 mb-2">
             Verify your email
           </h1>
-          <p className="text-zinc-400">
-            {email ? `We've sent a 6-digit code to ${email}` : 'Enter your verification code'}
-          </p>
         </div>
 
-        <form onSubmit={handleVerify} className="card space-y-6">
-          {error && (
-            <div className="bg-red-500/10 border border-red-500/20 text-red-400 
-                            px-4 py-3 rounded-lg text-sm">
-              {error}
+        <div className="card space-y-6 text-center">
+          {loading ? (
+            <div className="py-8">
+              <div className="animate-spin w-8 h-8 border-2 border-amber-500 border-t-transparent rounded-full mx-auto mb-4"></div>
+              <p className="text-zinc-400">{message}</p>
             </div>
+          ) : (
+            <>
+              <p className="text-zinc-300">{message}</p>
+              
+              {email && (
+                <div className="bg-zinc-800/50 rounded-lg p-4 mt-4">
+                  <p className="text-sm text-zinc-500 mb-2">Sent to:</p>
+                  <p className="text-amber-400 font-medium">{email}</p>
+                </div>
+              )}
+
+              <div className="space-y-3 pt-4">
+                <button
+                  onClick={handleCheckAgain}
+                  disabled={loading}
+                  className="w-full btn-primary"
+                >
+                  {loading ? 'Checking...' : "I've confirmed my email"}
+                </button>
+
+                <Link
+                  href="/login"
+                  className="block w-full text-center text-zinc-500 hover:text-zinc-400 text-sm"
+                >
+                  Back to login
+                </Link>
+              </div>
+            </>
           )}
+        </div>
 
-          {!email && (
-            <div className="space-y-2">
-              <label htmlFor="email" className="text-sm font-medium text-zinc-300">
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="input-field"
-                placeholder="you@example.com"
-                required
-              />
-            </div>
-          )}
-
-          <div className="space-y-2">
-            <label htmlFor="otp" className="text-sm font-medium text-zinc-300">
-              Verification Code
-            </label>
-            <input
-              id="otp"
-              type="text"
-              value={otp}
-              onChange={(e) => setOtp(e.target.value)}
-              className="input-field text-center text-2xl tracking-widest"
-              placeholder="000000"
-              maxLength={6}
-              required
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={loading || !codeSent}
-            className="w-full btn-primary"
-          >
-            {loading ? 'Verifying...' : 'Verify Email'}
-          </button>
-
-          <div className="flex items-center justify-between text-sm">
-            <button
-              type="button"
-              onClick={handleResend}
-              disabled={resendLoading || !email}
-              className="text-amber-500 hover:text-amber-400 disabled:opacity-50"
-            >
-              {resendLoading ? 'Sending...' : 'Resend code'}
-            </button>
-            <Link href="/login" className="text-zinc-500 hover:text-zinc-400">
-              Back to login
-            </Link>
-          </div>
-        </form>
+        <div className="mt-6 text-center text-sm text-zinc-500">
+          <p>Didn't receive the email?</p>
+          <p className="mt-1">Check your spam folder or{</p>
+          <a href="/signup" className="text-amber-500 hover:text-amber-400">
+            try signing up again
+          </a>
+        </div>
       </div>
     </div>
   );

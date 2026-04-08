@@ -53,14 +53,13 @@ export default function SignupPage() {
             last_name: formData.lastName,
             role: formData.role,
           },
-          // Disable email confirmation requirement for now to simplify
           emailRedirectTo: `${window.location.origin}/dashboard`,
         },
       });
 
       if (error) throw error;
 
-      // Store email for potential verification
+      // Store email for verification page reference
       localStorage.setItem('pendingVerificationEmail', formData.email);
       router.push('/verify');
     } catch (err) {
