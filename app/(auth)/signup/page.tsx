@@ -44,7 +44,7 @@ export default function SignupPage() {
     }
 
     try {
-      const { data, error } = await supabase.auth.signUp({
+      const { error } = await supabase.auth.signUp({
         email: formData.email,
         password: formData.password,
         options: {
@@ -53,11 +53,15 @@ export default function SignupPage() {
             last_name: formData.lastName,
             role: formData.role,
           },
+          // Disable email confirmation requirement for now to simplify
+          emailRedirectTo: `${window.location.origin}/dashboard`,
         },
       });
 
       if (error) throw error;
 
+      // Store email for potential verification
+      localStorage.setItem('pendingVerificationEmail', formData.email);
       router.push('/verify');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to sign up');

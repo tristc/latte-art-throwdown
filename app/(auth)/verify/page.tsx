@@ -1,16 +1,54 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase/client';
 
 export default function VerifyPage() {
   const router = useRouter();
+  const [email, setEmail] = useState('');
   const [otp, setOtp] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [resendLoading, setResendLoading] = useState(false);
+  const [codeSent, setCodeSent] = useState(false);
+
+  useEffect(() => {
+    // Get email from localStorage or URL params
+    const pendingEmail = localStorage.getItem('pendingVerificationEmail');
+    if (pendingEmail) {
+      setEmail(pendingEmail);
+      // Auto-send OTP on page load
+      sendOTP(pendingEmail);
+    } else {
+      // Check if user is already logged in (email confirmed)
+      checkSession();
+    }
+  }, []);
+
+  const checkSession = async () => {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session?.user?.email_confirmed_at) {
+      router.push('/dashboard');
+    }
+  };
+
+  const sendOTP = async (emailToUse: string) => {
+    try {
+      const { error } = await supabase.auth.signInWithOtp({
+        email: emailToUse,
+        options: {
+          shouldCreateUser: false, // Don't create new user, just verify existing
+        },
+      });
+
+      if (error) throw error;
+      setCodeSent(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to send code');
+    }
+  };
 
   const handleVerify = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -18,15 +56,16 @@ export default function VerifyPage() {
     setError('');
 
     try {
-      // Note: In a real implementation, you'd need to store the email from signup
-      // For this demo, we'll use a simplified flow
       const { error } = await supabase.auth.verifyOtp({
-        token_hash: otp,
+        email,
+        token: otp,
         type: 'email',
       });
 
       if (error) throw error;
 
+      // Clear pending verification email
+      localStorage.removeItem('pendingVerificationEmail');
       router.push('/dashboard');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to verify');
@@ -36,11 +75,14 @@ export default function VerifyPage() {
   };
 
   const handleResend = async () => {
+    if (!email) {
+      setError('Email not found. Please sign up again.');
+      return;
+    }
     setResendLoading(true);
     try {
-      // Resend verification email
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      alert('Verification email resent!');
+      await sendOTP(email);
+      alert('Verification code resent!');
     } finally {
       setResendLoading(false);
     }
@@ -60,7 +102,7 @@ export default function VerifyPage() {
             Verify your email
           </h1>
           <p className="text-zinc-400">
-            We've sent a verification code to your email
+            {email ? `We've sent a 6-digit code to ${email}` : 'Enter your verification code'}
           </p>
         </div>
 
@@ -69,6 +111,23 @@ export default function VerifyPage() {
             <div className="bg-red-500/10 border border-red-500/20 text-red-400 
                             px-4 py-3 rounded-lg text-sm">
               {error}
+            </div>
+          )}
+
+          {!email && (
+            <div className="space-y-2">
+              <label htmlFor="email" className="text-sm font-medium text-zinc-300">
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="input-field"
+                placeholder="you@example.com"
+                required
+              />
             </div>
           )}
 
@@ -90,7 +149,7 @@ export default function VerifyPage() {
 
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || !codeSent}
             className="w-full btn-primary"
           >
             {loading ? 'Verifying...' : 'Verify Email'}
@@ -100,7 +159,7 @@ export default function VerifyPage() {
             <button
               type="button"
               onClick={handleResend}
-              disabled={resendLoading}
+              disabled={resendLoading || !email}
               className="text-amber-500 hover:text-amber-400 disabled:opacity-50"
             >
               {resendLoading ? 'Sending...' : 'Resend code'}
