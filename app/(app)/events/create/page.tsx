@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase/client';
-import { EventFormat } from '@/types';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
@@ -16,7 +15,7 @@ export default function CreateEventPage() {
     location: '',
     startDate: '',
     startTime: '',
-    format: EventFormat.MATCH_PATTERN,
+    format: 'MATCH_PATTERN',
     practiceTime: 180,
     serviceTime: 300,
     cleanupTime: 120,

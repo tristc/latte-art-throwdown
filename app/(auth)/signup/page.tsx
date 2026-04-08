@@ -4,16 +4,15 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase/client';
-import { UserRole } from '@/types';
 
 const roles = [
-  { value: UserRole.GENERAL_MEMBER, label: 'General Member' },
-  { value: UserRole.COMPETITOR, label: 'Competitor' },
-  { value: UserRole.VISUAL_JUDGE, label: 'Visual Judge' },
-  { value: UserRole.STATION_MANAGER, label: 'Station Manager' },
-  { value: UserRole.VOLUNTEER, label: 'Volunteer' },
-  { value: UserRole.COACH, label: 'Coach' },
-  { value: UserRole.COMPETITOR_ASSISTANT, label: 'Competitor Assistant' },
+  { value: 'GENERAL_MEMBER', label: 'General Member' },
+  { value: 'COMPETITOR', label: 'Competitor' },
+  { value: 'VISUAL_JUDGE', label: 'Visual Judge' },
+  { value: 'STATION_MANAGER', label: 'Station Manager' },
+  { value: 'VOLUNTEER', label: 'Volunteer' },
+  { value: 'COACH', label: 'Coach' },
+  { value: 'COMPETITOR_ASSISTANT', label: 'Competitor Assistant' },
 ];
 
 export default function SignupPage() {
@@ -24,7 +23,7 @@ export default function SignupPage() {
     confirmPassword: '',
     firstName: '',
     lastName: '',
-    role: UserRole.GENERAL_MEMBER,
+    role: 'GENERAL_MEMBER',
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
